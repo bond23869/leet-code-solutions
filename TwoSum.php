@@ -13,7 +13,6 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 */
 
-
 class Solution {
 
 /**
@@ -28,7 +27,6 @@ function twoSum($nums, $target) {
         $firstSumInt = $nums[$i];
         
         for($j = 0; $j < count($nums);$j++){
-            
             
             if(count($nums) == 2){
                 return [0,1];
